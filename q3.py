@@ -11,7 +11,7 @@ def update_dictionary(dct, key, value):
     dct[key] = value
     return dct
 
-Task 2
+Task 2 (to omit task 2 line 14 to run the sequenxe)
 # Test case 1: {}, "name", "Alice"
 answer1 = update_dictionary({}, "name", "Alice")
 print(answer1)  # Expected output: {"name": "Alice"}
