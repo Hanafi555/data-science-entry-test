@@ -23,10 +23,10 @@ def find_and_replace(lst, find_val, replace_val):
 
 
 # Test 1: [1, 2, 3, 4, 2, 2], 2, 5
-result1 = find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
-print(result1)  # Expected output: [1, 5, 3, 4, 5, 5]
+answer1 = find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
+print(answer1)  # Expected output: [1, 5, 3, 4, 5, 5]
 
 # Test 2: ["apple", "banana", "apple"], "apple", "orange"
-result2 = find_and_replace(["apple", "banana", "apple"], "apple", "orange")
-print(result2)  # Expected output: ['orange', 'banana', 'orange']
+answer2 = find_and_replace(["apple", "banana", "apple"], "apple", "orange")
+print(answer2)  # Expected output: ['orange', 'banana', 'orange']
 
