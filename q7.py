@@ -16,7 +16,7 @@ class Car:
         print(f"{self.year} {self.make} {self.model}")
 
 # Task 2: Creating an instance of the Car class
-p1 = Car("Toyota", "Corolla", 2020)
+thecar = Car("Toyota", "Corolla", 2020)
 
 # Calling the describe_car method to print car information
-p1.describe_car()
+thecar.describe_car()
